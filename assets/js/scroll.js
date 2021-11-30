@@ -12,10 +12,12 @@
     	if($val == 0){
     		$(".nav-prev").hide();
     		$(".heading").show();
+    		$(".images").show();
 
     	} else {
     		$(".nav-prev").show();
     		$(".heading").hide();
+    		$(".images").hide();
 
     	}
   	});
