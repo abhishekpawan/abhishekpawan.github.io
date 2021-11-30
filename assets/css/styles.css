@@ -473,14 +473,25 @@ canvas {
     left: -400px;
   }
 }
+@media (max-width:481px) {
+  .images{
+    transform: scale(0.6);
+    position: absolute;
+    top: -700px;
+    left: -400px;
+  }
+}
+
 
 
 @media (max-width: 641px) {
   /*tablet*/
   #hero {
-    justify-content: end;
+    position: relative;
+    bottom: -150px;
+    justify-content: center;
     text-align: center;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
   }
 
   #hero h1 {
