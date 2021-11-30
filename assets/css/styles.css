@@ -475,7 +475,7 @@ canvas {
 }
 @media (max-width:481px) {
   .images{
-    transform: scale(0.5);
+    transform: scale(0.4);
     position: absolute;
     top: -700px;
     left: -400px;
