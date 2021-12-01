@@ -849,8 +849,6 @@ section {
 }
 
 
-
-
 strong {
   font-weight: 700;
 }
@@ -1112,6 +1110,177 @@ strong {
     transform: scale(.9);
   }
 }
+/* floating tech_icon for plan-a-zoid */
+
+.PAZ .tech_icons{
+  visibility: hidden;
+}
+
+.PAZ .tech_icons .html{
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+.PAZ .tech_icons .css{
+  position: relative;
+  top: 160px;
+  left: 60px;
+}.PAZ .tech_icons .react{
+  position: relative;
+  top: 70px;
+  left: 10px;
+}.PAZ .tech_icons .node{
+  position: relative;
+  top: 50px;
+  left: 20px;
+}.PAZ .tech_icons .fire{
+  position: relative;
+  top: 100px;
+  left: 20px;
+}.PAZ .tech_icons .boot{
+  position: relative;
+  top: 140px;
+  left: 20px;
+}
+
+.PAZ .tech_icons.show{
+  animation: 1.5s fadeIn;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+.PAZ .tech_icons img{
+  width: 34px;
+  border-radius: 400px;
+  background-color: #ffffff6e;
+  transform: translatey(0px);
+  -webkit-animation: anim 6s ease-in-out infinite;
+          animation: anim 6s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes anim {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes anim {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+/* floating tech_icon for my book list*/
+
+
+.MBL .tech_icons{
+  visibility: hidden;
+}
+
+.MBL .tech_icons .html{
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+.MBL .tech_icons .css{
+  position: relative;
+  top: 100px;
+  left: 20px;
+}.MBL .tech_icons .java{
+  position: relative;
+  top: 60px;
+  left: 120px;
+}.MBL .tech_icons .boot{
+  position: relative;
+  top: 140px;
+  left: 20px;
+}
+
+.MBL .tech_icons.show{
+  animation: 1.5s fadeIn;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+.MBL .tech_icons img{
+  width: 34px;
+  border-radius: 400px;
+  background-color: #ffffff6e;
+  transform: translatey(0px);
+  -webkit-animation: anim 6s ease-in-out infinite;
+          animation: anim 6s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes anim {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes anim {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
 
 
 button a{
