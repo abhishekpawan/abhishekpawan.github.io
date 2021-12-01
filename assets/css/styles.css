@@ -1323,15 +1323,33 @@ button a{
 .btn-3.YSC{
   background: #F8C700;
 }
-.btn-3.MIO{
+.btn-3.MIO,.btn-3.email{
   background: #d61a3c;
+}
+.btn-3.MIO,.btn-3.code{
+  background: #d61a3c;
+}
+
+.btn-3.email{
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 60px;
+  width: 100px;
+  height: 36px;
+}
+.btn-3.code{
+  font-family: "Poppins", sans-serif;
+  /* position: relative;
+  left: 60px; */
+  width: 130px;
+  height: 40px;
 }
 .btn-3 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
-  /* color: var(---color); */
+  color: var(--text-color);
 }
 .btn-3 span i{
   font-size: 20px;
@@ -1354,6 +1372,14 @@ button a{
 
 .btn-3.MIO:before,
 .btn-3.MIO::after{
+  background: #d61a3c;
+}
+.btn-3.email:before,
+.btn-3.email:after{
+  background: #d61a3c;
+}
+.btn-3.code:before,
+.btn-3.code:after{
   background: #d61a3c;
 }
 
@@ -1380,6 +1406,13 @@ button a{
 .btn-3 span:hover a {
   color: var(--bkg-color);
 }
+
+.btn-3.email span:hover a {
+  color: var(--text-color);
+}
+.btn-3.code span:hover a {
+  color: var(--text-color);
+}
 .btn-3 span:before,
 .btn-3 span:after {
   position: absolute;
@@ -1395,6 +1428,14 @@ button a{
 }
 .btn-3.MIO span:before,
 .btn-3.MIO span:after{
+  background: #d61a3c;
+}
+.btn-3.email span:before,
+.btn-3.email span:after{
+  background: #d61a3c;
+}
+.btn-3.code span:before,
+.btn-3.code span:after{
   background: #d61a3c;
 }
 .btn-3 span:before {
@@ -1638,6 +1679,8 @@ button a{
   } */
 
 .contact .inside {
+  font-family: "Poppins", sans-serif;
+
   padding: 60px 150px 0px 30px;
 }
 
@@ -1670,100 +1713,21 @@ button a{
   font-size: 14px;
   color: var(--text-color);
 }
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
+
+.contact .info .social-links {
+  /* margin-top: 10px; */
 }
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #d61a3c;
-  color: #fff;
-}
-.contact .php-email-form {
-  width: 100%;
-  /* background: #fff; */
+.contact .info .social-links a {
+  font-size: 30px;
+  display: inline-block;
+  color: var(--text-color);
+  margin-right: 20px;
+  transition: 0.3s;
 }
 
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #d61a3c;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 4px;
-  box-shadow: none;
-  font-size: 14px;
-}
-.contact .php-email-form input {
-  height: 44px;
-}
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-.contact .php-email-form button[type="submit"] {
-  background: #d61a3c;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-.contact .php-email-form button[type="submit"]:hover {
-  background: #d61a3c;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
+
+
 
 @media (min-width: 641px) {
   /*laptops(min)*/
@@ -1777,19 +1741,19 @@ button a{
   .contact .title h5 {
     font-size: 14px;
   }
+  .contact .title h1 {
+    padding-left: 22px;
+  }
   .contact .inside {
     padding: 60px 30px 0px 30px;
-  }
-  .contact .info {
-    transform: scale(0.7);
   }
 }
 @media (max-width: 480px) {
   /*mobille*/
   .contact .title h1 {
-    padding-left: 22px;
     font-size: 38px;
   }
+ 
 }
 
 
