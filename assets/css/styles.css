@@ -808,7 +808,7 @@ section {
   word-break: break-word;
 }
 .projects .row {
-  padding: 30px 0px 20px 20px;
+  /* padding: 30px 0px 20px 20px; */
   color: var(--text-color);
 }
 
@@ -1452,6 +1452,74 @@ button a{
 .btn-3 span:hover:after {
   width: 100%;
 }
+
+
+
+/*--------------------------------------------------------------
+  # Multiple Item Carousel
+  --------------------------------------------------------------*/
+  @media (max-width: 1300px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+    
+}
+.carousel-inner{
+  display: flex;
+  padding: 50px;
+  min-height: 500px;
+  /* justify-content: center; */
+
+}
+
+@media (max-width: 500px) {
+  .carousel-inner{
+    padding: 0;
+  }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+    
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+  
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #b30000;
+}
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
   #Personal Projects
