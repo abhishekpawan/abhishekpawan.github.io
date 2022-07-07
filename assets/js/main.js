@@ -11,22 +11,22 @@
 
   /*for plan-a-zoid*/
 
-  document.querySelector(".PAZ").onmouseenter = function () {
-    document.querySelector("#PAZ_icons").classList.add("show");
-  };
+  // document.querySelector(".PAZ").onmouseenter = function () {
+  //   document.querySelector("#PAZ_icons").classList.add("show");
+  // };
 
-  document.querySelector(".PAZ").onmouseleave = function () {
-    document.querySelector("#PAZ_icons").classList.remove("show");
-  };
-  /* for my book list*/
+  // document.querySelector(".PAZ").onmouseleave = function () {
+  //   document.querySelector("#PAZ_icons").classList.remove("show");
+  // };
+  // /* for my book list*/
 
-  document.querySelector(".MBL").onmouseenter = function () {
-    document.querySelector("#MBL_icons").classList.add("show");
-  };
+  // document.querySelector(".MBL").onmouseenter = function () {
+  //   document.querySelector("#MBL_icons").classList.add("show");
+  // };
 
-  document.querySelector(".MBL").onmouseleave = function () {
-    document.querySelector("#MBL_icons").classList.remove("show");
-  };
+  // document.querySelector(".MBL").onmouseleave = function () {
+  //   document.querySelector("#MBL_icons").classList.remove("show");
+  // };
   // show more expereinece
 
   // document.querySelector('.showmore').onclick = function(){
