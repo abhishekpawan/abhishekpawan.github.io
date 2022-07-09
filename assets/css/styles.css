@@ -1451,6 +1451,17 @@ button a {
 }
 
 /* button colors */
+
+button.btn-3.PURPLE a,
+button.btn-3.RED a,
+button.btn-3.BLUE a,
+button.btn-3.SKYBLUE a,
+button.btn-3.GREEN a,
+button.btn-3.YELLOW a{
+  color: white !important;
+  
+}
+
 /* RED */
 .btn-3.RED {
   background: #d61a3c;
@@ -1483,6 +1494,7 @@ button a {
   background: #9300ff;
 }
 
+
 /* BLUE */
 .btn-3.BLUE {
   background: #2a66b3;
@@ -1514,6 +1526,7 @@ button a {
 .btn-3.YELLOW span:after {
   background: #ffdd2c;
 }
+
 /* GREEN */
 .btn-3.GREEN {
   background: #35b276;
@@ -1528,6 +1541,22 @@ button a {
 .btn-3.GREEN span:before,
 .btn-3.GREEN span:after {
   background: #35b276;
+}
+
+/* SKYBLUE */
+.btn-3.SKYBLUE {
+  background: #4fbfff;
+}
+.btn-3.SKYBLUE {
+  background: #4fbfff;
+}
+.btn-3.SKYBLUE:before,
+.btn-3.SKYBLUE::after {
+  background: #4fbfff;
+}
+.btn-3.SKYBLUE span:before,
+.btn-3.SKYBLUE span:after {
+  background: #4fbfff;
 }
 
 /*--------------------------------------------------------------
@@ -1851,8 +1880,6 @@ button a {
   background: #b30000;
 }
 
-
-
 /*--------------------------------------------------------------
   # Project Carousel
   --------------------------------------------------------------*/
@@ -2086,9 +2113,23 @@ button a {
   background: linear-gradient(
     0deg,
     rgba(2, 0, 36, 1) 0%,
+    rgba(0, 58, 133, 1) 55%,
+    rgba(42, 102, 179, 1) 100%
+  );
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(55, 111, 143, 1) 55%,
+    rgba(79, 191, 255, 1) 100%
+  ); */
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
     rgba(163, 137, 0, 1) 55%,
     rgba(255, 221, 44, 1) 100%
-  );
+  ); */
 }
 .canvas-wrapper .slide:nth-child(4) .slide__overlay-path {
   /* fill: #cbc6c3; */
@@ -2354,4 +2395,14 @@ button a {
 
 .canvas-wrapper .text__background.GREEN {
   color: rgba(53, 178, 118, 0.4) !important;
+}
+
+/* SKYBLUE */
+
+.canvas-wrapper .slide__text-heading.SKYBLUE {
+  color: rgb(79, 191, 255) !important;
+}
+
+.canvas-wrapper .text__background.SKYBLUEE {
+  color: rgb(79, 191, 255,0.4) !important;
 }
