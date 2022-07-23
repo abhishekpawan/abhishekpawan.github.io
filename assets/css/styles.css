@@ -1457,9 +1457,8 @@ button.btn-3.RED a,
 button.btn-3.BLUE a,
 button.btn-3.SKYBLUE a,
 button.btn-3.GREEN a,
-button.btn-3.YELLOW a{
+button.btn-3.YELLOW a {
   color: white !important;
-  
 }
 
 /* RED */
@@ -1493,7 +1492,6 @@ button.btn-3.YELLOW a{
 .btn-3.PURPLE span:after {
   background: #9300ff;
 }
-
 
 /* BLUE */
 .btn-3.BLUE {
@@ -1557,6 +1555,22 @@ button.btn-3.YELLOW a{
 .btn-3.SKYBLUE span:before,
 .btn-3.SKYBLUE span:after {
   background: #4fbfff;
+}
+
+/* ORANGE */
+.btn-3.ORANGE {
+  background: #ff5e24;
+}
+.btn-3.ORANGE {
+  background: #ff5e24;
+}
+.btn-3.ORANGE:before,
+.btn-3.ORANGE::after {
+  background: #ff5e24;
+}
+.btn-3.ORANGE span:before,
+.btn-3.ORANGE span:after {
+  background: #ff5e24;
 }
 
 /*--------------------------------------------------------------
@@ -2082,11 +2096,37 @@ button.btn-3.YELLOW a{
     height: 80%;
   }
 }
+
 .canvas-wrapper .slide:nth-child(3) {
   left: 200%;
 }
 .canvas-wrapper .slide:nth-child(3) .slide__bg {
   left: -100%;
+  /* background-image: url("../img/helpinghandbg.png"); */
+
+  background: rgb(27, 26, 23);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 26, 23, 1) 0%,
+    rgba(158, 53, 15, 1) 55%,
+    rgba(255, 94, 36, 1) 100%
+  );
+}
+.canvas-wrapper .slide:nth-child(3) .slide__overlay-path {
+  /* fill: #ffffff; */
+}
+@media (max-width: 991px) {
+  .canvas-wrapper .slide:nth-child(3) .slide__text {
+    background-color: rgba(14, 14, 14, 0.577);
+    height: 75%;
+  }
+}
+
+.canvas-wrapper .slide:nth-child(4) {
+  left: 300%;
+}
+.canvas-wrapper .slide:nth-child(4) .slide__bg {
+  left: -150%;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     0deg,
@@ -2095,20 +2135,20 @@ button.btn-3.YELLOW a{
     rgba(42, 102, 179, 1) 100%
   );
 }
-.canvas-wrapper .slide:nth-child(3) .slide__overlay-path {
+.canvas-wrapper .slide:nth-child(4) .slide__overlay-path {
   /* fill: #adc5cd; */
 }
 @media (max-width: 991px) {
-  .canvas-wrapper .slide:nth-child(3) .slide__text {
+  .canvas-wrapper .slide:nth-child(4) .slide__text {
     background-color: rgba(14, 14, 14, 0.577);
     height: 80%;
   }
 }
-.canvas-wrapper .slide:nth-child(4) {
-  left: 300%;
+.canvas-wrapper .slide:nth-child(5) {
+  left: 400%;
 }
-.canvas-wrapper .slide:nth-child(4) .slide__bg {
-  left: -150%;
+.canvas-wrapper .slide:nth-child(5) .slide__bg {
+  left: -200%;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     0deg,
@@ -2131,28 +2171,6 @@ button.btn-3.YELLOW a{
     rgba(255, 221, 44, 1) 100%
   ); */
 }
-.canvas-wrapper .slide:nth-child(4) .slide__overlay-path {
-  /* fill: #cbc6c3; */
-}
-@media (max-width: 991px) {
-  .canvas-wrapper .slide:nth-child(4) .slide__text {
-    background-color: rgba(14, 14, 14, 0.577);
-    height: 80%;
-  }
-}
-.canvas-wrapper .slide:nth-child(5) {
-  left: 400%;
-}
-.canvas-wrapper .slide:nth-child(5) .slide__bg {
-  left: -200%;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 58, 133, 1) 55%,
-    rgba(42, 102, 179, 1) 100%
-  );
-}
 .canvas-wrapper .slide:nth-child(5) .slide__overlay-path {
   /* fill: #cbc6c3; */
 }
@@ -2162,13 +2180,33 @@ button.btn-3.YELLOW a{
     height: 80%;
   }
 }
-
 .canvas-wrapper .slide:nth-child(6) {
   left: 500%;
 }
 .canvas-wrapper .slide:nth-child(6) .slide__bg {
   left: -250%;
-  /* background-image: url("../img/helpinghandbg.png"); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 58, 133, 1) 55%,
+    rgba(42, 102, 179, 1) 100%
+  );
+}
+.canvas-wrapper .slide:nth-child(6) .slide__overlay-path {
+}
+@media (max-width: 991px) {
+  .canvas-wrapper .slide:nth-child(6) .slide__text {
+    background-color: rgba(14, 14, 14, 0.577);
+    height: 80%;
+  }
+}
+/* 
+.canvas-wrapper .slide:nth-child(6) {
+  left: 500%;
+}
+.canvas-wrapper .slide:nth-child(6) .slide__bg {
+  left: -250%;
   background: rgb(14, 14, 14);
   background: linear-gradient(
     0deg,
@@ -2178,7 +2216,6 @@ button.btn-3.YELLOW a{
   );
 }
 .canvas-wrapper .slide:nth-child(6) .slide__overlay-path {
-  /* fill: #ffffff; */
 }
 @media (max-width: 991px) {
   .canvas-wrapper .slide:nth-child(6) .slide__text {
@@ -2191,7 +2228,6 @@ button.btn-3.YELLOW a{
 }
 .canvas-wrapper .slide:nth-child(7) .slide__bg {
   left: -300%;
-  /* background-image: url("../img/helpinghandbg.png"); */
   background: rgb(2, 0, 36);
   background: linear-gradient(
     0deg,
@@ -2201,14 +2237,13 @@ button.btn-3.YELLOW a{
   );
 }
 .canvas-wrapper .slide:nth-child(7) .slide__overlay-path {
-  /* fill: #ffffff; */
 }
 @media (max-width: 991px) {
   .canvas-wrapper .slide:nth-child(7) .slide__text {
     background-color: rgba(14, 14, 14, 0.577);
     height: 75%;
   }
-}
+} */
 
 .canvas-wrapper .slide__content {
   position: absolute;
@@ -2404,5 +2439,15 @@ button.btn-3.YELLOW a{
 }
 
 .canvas-wrapper .text__background.SKYBLUEE {
-  color: rgb(79, 191, 255,0.4) !important;
+  color: rgb(79, 191, 255, 0.4) !important;
+}
+
+/* ORANGE */
+
+.canvas-wrapper .slide__text-heading.ORANGE {
+  color: #ff5e24 !important;
+}
+
+.canvas-wrapper .text__background.ORANGE {
+  color: #ff5e24 !important;
 }
