@@ -3,7 +3,7 @@ const dl_icon=document.querySelector("#dl_icon")
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 // const currentTheme = localStorage.getItem("theme");
-const currentTheme = "light";
+const currentTheme = "dark";
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-theme");
   dl_icon.classList.toggle("bxs-sun");
