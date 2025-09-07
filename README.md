@@ -36,7 +36,7 @@ Welcome to my digital space! This portfolio is a **modern, responsive web applic
 | Frontend | Styling | Icons | Deployment |
 |----------|---------|-------|------------|
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![Bootstrap Icons](https://img.shields.io/badge/Bootstrap_Icons-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white) |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) | ![BoxIcons](https://img.shields.io/badge/BoxIcons-FF6B6B?style=for-the-badge&logo=css3&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) | ![BoxIcons](https://img.shields.io/badge/BoxIcons-FF6B6B?style=for-the-badge&logo=css3&logoColor=white) |  |
 
 </div>
 
@@ -195,21 +195,6 @@ code .
 ![Firefox](https://img.shields.io/badge/Firefox-✅-FF7139?style=for-the-badge&logo=firefox&logoColor=white)
 ![Safari](https://img.shields.io/badge/Safari-✅-000000?style=for-the-badge&logo=safari&logoColor=white)
 ![Edge](https://img.shields.io/badge/Edge-✅-0078D4?style=for-the-badge&logo=microsoft-edge&logoColor=white)
-
-</div>
-
----
-
-## 📈 **Performance Metrics**
-
-<div align="center">
-
-| Metric | Score | Status |
-|--------|-------|--------|
-| 🚀 **Performance** | 95+ | ![Excellent](https://img.shields.io/badge/Excellent-4CAF50?style=flat-square) |
-| ♿ **Accessibility** | 90+ | ![Good](https://img.shields.io/badge/Good-8BC34A?style=flat-square) |
-| 🔍 **SEO** | 85+ | ![Good](https://img.shields.io/badge/Good-8BC34A?style=flat-square) |
-| 💯 **Best Practices** | 95+ | ![Excellent](https://img.shields.io/badge/Excellent-4CAF50?style=flat-square) |
 
 </div>
 
